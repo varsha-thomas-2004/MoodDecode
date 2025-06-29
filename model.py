@@ -1,11 +1,6 @@
 from flask import Flask, request, jsonify
-from transformers import pipeline
 
 app = Flask(__name__)
-
-emotion_pipeline = pipeline("text-classification", model="j-hartmann/emotion-english-distilroberta-base")
-summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
-
 
 CRISIS_KEYWORDS = set([
     "hopeless", "kill myself", "hurt myself", "suicidal", "end it",
@@ -30,6 +25,8 @@ CRISIS_KEYWORDS = set([
 
 @app.route('/analyze-mood', methods = ['POST'])
 def analyze_mood():
+    from transformers import pipeline
+    emotion_pipeline = pipeline("text-classification", model="j-hartmann/emotion-english-distilroberta-base")
     data = request.json
     text = data.get("text","")
     result = emotion_pipeline(text)[0]
@@ -44,6 +41,8 @@ def detect_crisis():
 
 @app.route('/summarize', methods = ['POST'])
 def summarize():
+    from transformers import pipeline
+    summarizer = pipeline("summarization", model="sshleifer/distilbart-cnn-12-6")
     data = request.json
     text = data.get("text", "")
     result = summarizer(text, max_length=60, min_length=15, do_sample=False)[0]["summary_text"]
