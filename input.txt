@@ -14,9 +14,6 @@ Crisis Detection Tests
 Summarization Test
 
 ["Today started off as one of those days where everything just felt heavy. I woke up late because I couldn’t sleep last night — my mind kept spinning with thoughts about everything I had to do and everything I haven’t done. I skipped breakfast, which probably made me even more irritable. As I got to work, the number of emails and Slack messages waiting for me was overwhelming. I felt like no matter how fast I tried to move through my tasks, they just kept piling up.",
-
-During the morning standup, I didn’t feel like talking. I kept my camera off and just said I was 'fine', even though I wasn’t. I know people care, but sometimes it’s easier to just keep it all inside. Around noon, I tried to take a break and went for a walk. The weather was warm, and there were kids playing in the park nearby. That gave me a moment of calm — like a small reminder that the world keeps moving even when you feel stuck.",
-
-In the afternoon, I finally had a long-overdue conversation with a teammate about something that had been bothering me. It went better than I expected, and I felt a little lighter afterward. I even managed to finish two big tasks that had been on my plate for over a week. That gave me a small sense of accomplishment, even if the day started off badly.",
-
-Now that I’m home, I feel emotionally drained but also proud that I didn’t give up on the day. I wrote this all down to remind myself that even hard days can have good moments — and maybe tomorrow will be easier."]
+"During the morning standup, I didn’t feel like talking. I kept my camera off and just said I was 'fine', even though I wasn’t. I know people care, but sometimes it’s easier to just keep it all inside. Around noon, I tried to take a break and went for a walk. The weather was warm, and there were kids playing in the park nearby. That gave me a moment of calm — like a small reminder that the world keeps moving even when you feel stuck.",
+"In the afternoon, I finally had a long-overdue conversation with a teammate about something that had been bothering me. It went better than I expected, and I felt a little lighter afterward. I even managed to finish two big tasks that had been on my plate for over a week. That gave me a small sense of accomplishment, even if the day started off badly.",
+"Now that I’m home, I feel emotionally drained but also proud that I didn’t give up on the day. I wrote this all down to remind myself that even hard days can have good moments — and maybe tomorrow will be easier."]
