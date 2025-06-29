@@ -1,4 +1,4 @@
-# MoodDecode — NLP Logic and Model Documentation
+# MoodDecode — NLP API
 
 This project is part of the **MoodDecode** challenge. It contains the NLP logic and model integration for three API endpoints that analyze human text to understand emotion, detect potential crises, and summarize long-form content.
 
@@ -10,7 +10,7 @@ This project is part of the **MoodDecode** challenge. It contains the NLP logic 
 
 ## API Endpoints
 
-### 1. `POST /analyze_mood`
+### 1. `POST /analyze-mood`
 
 **Description:** Detects the user's emotional tone from input text.
 
@@ -30,7 +30,7 @@ This project is part of the **MoodDecode** challenge. It contains the NLP logic 
 }
 ```
 
-### 2. `POST /detect_crisis`
+### 2. `POST /detect-crisis`
 
 **Description:** Detects signs of a mental health crisis using a rule-based keyword detection system.
 
@@ -74,7 +74,7 @@ This project is part of the **MoodDecode** challenge. It contains the NLP logic 
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
+   git clone git@github.com:varsha-thomas-2004/MoodDecode.git
    cd mooddecode
    ```
 
@@ -94,16 +94,6 @@ This will:
 The project requires the following Python packages:
 - `transformers` - For loading and using pre-trained NLP models
 - `torch` - PyTorch framework for model inference
-
-## Project Structure
-
-```
-mooddecode/
-├── model.py              # Main script with NLP logic
-├── requirements.txt      # Python dependencies
-├── README.md            # This file
-
-```
 
 ## Models Used
 
